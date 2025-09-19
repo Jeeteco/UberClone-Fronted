@@ -5,7 +5,7 @@ import axios from "axios";
 const backend = import.meta.env.VITE_BACKEND_URL;
 
 
-const RiderRideHistory = () => {
+const RiderRidehistory = () => {
     const [rides, setRides] = useState([]);
     const navigate = useNavigate();
 
@@ -88,4 +88,4 @@ const RiderRideHistory = () => {
     )
 }
 
-export default RiderRideHistory
+export default RiderRidehistory
