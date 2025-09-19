@@ -7,16 +7,16 @@ import Home from './pages/HomePage'
 import Driver from './context/DriverDashboard.jsx'
 import Rider from './context/RiderDashboard.jsx'
 import Recovery from './pages/RecoverPasswordPage.jsx'
-// import RouteFinder from './component/RouteFinder.jsx'
-//import RiderSidebar from './component/sidebar/RiderSidebar.jsx'
 
-import RiderRideHistory from './component/rides/RiderRidehistory.jsx'
+
+
 import DriverRideHistory from './component/rides/DriverRideHistory.jsx'
 import TraceRide from './component/rides/TraceRide.jsx'
 import ProfilePage from './pages/ProfilePage.jsx'
 
 import Payment from './component/payments/PaymentForm.jsx'
 import MyRide from './component/rides/MyRide.jsx'
+import RiderRideHistory from './component/rides/RiderRideHistory.jsx'
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
           {/* <Route path='/RouteFinder' element={<RouteFinder/>}/> */}
           {/* <Route path='/riderSidebar' element={<RiderSidebar/>} /> */}
           <Route path='/userProfile' element={<ProfilePage />} />
-          <Route path='/RiderRideHistory' element={<RiderRideHistory />} />
+          <Route path='/RiderRideHistory' element={<RiderRideHistory/>} />
           <Route path='/DriverRideHistory' element={<DriverRideHistory />} />\
           <Route path='/payments' element={<Payment/>} />
           <Route path='/liveRide' element={<MyRide/>} />
